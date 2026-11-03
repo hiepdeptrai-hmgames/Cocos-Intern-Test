@@ -1,0 +1,38 @@
+{
+  "ver": "2.3.7",
+  "uuid": "3937f0ec-5c8b-43f5-b915-ba58226bb9af",
+  "importer": "texture",
+  "type": "sprite",
+  "wrapMode": "clamp",
+  "filterMode": "bilinear",
+  "premultiplyAlpha": false,
+  "genMipmaps": false,
+  "packable": true,
+  "width": 345,
+  "height": 345,
+  "platformSettings": {},
+  "subMetas": {
+    "sticker merge 2": {
+      "ver": "1.0.6",
+      "uuid": "b7f958e7-7e15-45b3-adbd-3c568f9fb835",
+      "importer": "sprite-frame",
+      "rawTextureUuid": "3937f0ec-5c8b-43f5-b915-ba58226bb9af",
+      "trimType": "auto",
+      "trimThreshold": 1,
+      "rotated": false,
+      "offsetX": 0,
+      "offsetY": 0,
+      "trimX": 0,
+      "trimY": 0,
+      "width": 345,
+      "height": 345,
+      "rawWidth": 345,
+      "rawHeight": 345,
+      "borderTop": 0,
+      "borderBottom": 0,
+      "borderLeft": 0,
+      "borderRight": 0,
+      "subMetas": {}
+    }
+  }
+}

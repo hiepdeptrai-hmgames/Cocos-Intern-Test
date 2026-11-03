@@ -1,0 +1,62 @@
+{
+  "name": "Level 0",
+  "maxBubblesInScene": 20,
+  "moveLimit": 15,
+  "categories": [
+    {
+      "category": "Farm Animals",
+      "parentCategory": "",
+      "icon": "",
+      "words": [
+        "Cow",
+        "Horse",
+        "Goat",
+        "Pig"
+      ]
+    },
+    {
+      "category": "Colors",
+      "parentCategory": "",
+      "icon": "",
+      "words": [
+        "Red",
+        "Blue",
+        "Green",
+        "Yellow"
+      ]
+    },
+    {
+      "category": "Vehicles",
+      "parentCategory": "",
+      "icon": "",
+      "words": [
+        "Car",
+        "Bus",
+        "Bicycle",
+        "Truck"
+      ]
+    },
+    {
+      "category": "Compass",
+      "parentCategory": "",
+      "icon": "",
+      "words": [
+        "North",
+        "South",
+        "East",
+        "West"
+      ]
+    },
+    {
+      "category": "Days of the Week",
+      "parentCategory": "",
+      "icon": "",
+      "words": [
+        "Monday",
+        "Sunday",
+        "Tuesday",
+        "Friday"
+      ]
+    }
+  ]
+}

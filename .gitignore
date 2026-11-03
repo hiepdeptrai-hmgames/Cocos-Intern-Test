@@ -51,3 +51,18 @@ Thumbs.db
 #//////////////////////////
 
 .vscode/
+
+/packages/mcp-bridge/
+
+# Internal planning notes
+/plans/
+# Local MCP tooling (machine-specific paths)
+/.mcp.json
+/settings/mcp-bridge.json
+# Playable toolkit (not part of the intern test)
+/playable-config/
+/build-templates/
+/package.json
+/package-lock.json
+/assets/Scripts/
+/assets/Scripts.meta
