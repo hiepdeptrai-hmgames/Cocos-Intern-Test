@@ -77,27 +77,5 @@ box.apply();                            // bắt buộc sau khi đổi thông s�
 - Group & Collision Matrix: `Project → Project Settings → Group Manager`; set `node.group` trong Inspector.
 - Docs: [Physics](https://docs.cocos.com/creator/2.4/manual/en/physics/physics/) · [RigidBody](https://docs.cocos.com/creator/2.4/manual/en/physics/physics/rigid-body.html) · [Collider](https://docs.cocos.com/creator/2.4/manual/en/physics/physics/collider-component.html)
 
-## Bounding box
-```ts
-const a = nodeA.getBoundingBoxToWorld();
-const b = nodeB.getBoundingBoxToWorld();
-a.intersects(b);          // có chồng nhau không
-a.contains(cc.v2(x, y));  // điểm nằm trong
-```
-
-## Tween
-```ts
-cc.tween(node)
-    .to(0.2, { scale: 1.2 }, { easing: "quadOut" })
-    .to(0.2, { scale: 1 })
-    .call(() => { /* xong */ })
-    .start();
-
-cc.tween(node).to(0.3, { opacity: 0 }).start();
-cc.tween(node).to(0.3, { position: cc.v3(0, 100, 0) }).start();
-cc.Tween.stopAllByTarget(node);
-```
-Docs: [Tween](https://docs.cocos.com/creator/2.4/manual/en/scripting/tween.html)
-
 ## Debug
 - `cc.log(...)`, `cc.warn(...)`, `cc.error(...)` — xem trong Console của Editor hoặc DevTools khi Preview trên browser.
